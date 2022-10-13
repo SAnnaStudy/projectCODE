@@ -1,0 +1,64 @@
+.list_profile {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    &_content{
+        height: 100%;
+        display: flex;
+    }
+    &_picture{
+        width: 72px;
+        height: 72px;
+        margin: 6px 6px 6px 0
+    }
+    &_photo{
+        width: 72px;
+        height: 72px;
+        border-radius: 36px
+    }
+    &_text{
+        margin: 22px 0 0 16px
+    }
+    &_name{
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #050510
+    }
+    &_description{
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 16px;
+        color: #55555C;
+        margin-top: 3px
+    }
+    &_information{
+        display: flex;
+    }
+    &_userTag{
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: #97979B;
+        margin: 1.7px 0 0 4px;
+    }
+    &_date{
+        display: flex;
+    }
+    &_date p{
+        margin: auto;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        color: #55555C;
+    }
+}
+.list_link{
+    text-decoration: none
+}
